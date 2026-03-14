@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant sénégalais</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/produit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+
+</head>
+<body>
+  <header>
+    <div>
+    <img src="../logo/restaurant_nous_faisons_des_plats__africaine_-removebg-preview.png" alt="mon logo" class="logo">
+
+    </div>
+    <div>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="produits.html">produits</a></li>
+        <li><a href="propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </div>
+  </header>
+<section id="menu">
+    <h2 class="h">Nos produits</h2>
+<h3>Entrées</h3>
+<div class="menu-categorie">
+  <div class="plat"><img src="../recettes/soupe au légume.jpeg"><div class="plat-info"><p>Soupe de légumes</p><span class="prix">3 000 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/salade aficaine.jpg"><div class="plat-info"><p>Salade africaine</p><span class="prix">2 800 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/accara.jpg"><div class="plat-info"><p>Accras de morue</p><span class="prix">3 000 CFA</span><br><button class="button-commander">Commander</button></div></div>
+  <div class="plat"><img src="../recettes/Boulettes d'igname au fromage.jpg"><div class="plat-info"><p>Beignets d'igname</p><span class="prix">2 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  
+</div>
+<h3>Plats de Résistance</h3>
+<div class="menu-categorie">
+  <div class="plat"><img src="../recettes/thiéboudiéne.jpg"><div class="plat-info"><p>Thieboudienne</p><span class="prix">6 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/yassa poulet.jpg" ><div class="plat-info"></div><p>Yassa Poulet</p><span class="prix">5 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/mafé.jpg"><div class="plat-info"><p>Mafé</p><span class="prix">6 000 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="..//recettes/Poisson baisé.avif"><div class="plat-info"><p>poisson-braisé</p><span class="prix">7 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+</div>
+
+<h3>Desserts</h3>
+<div class="menu-categorie">
+  <div class="plat"><img src="../recettes/ngalakh.jpg"><div class="plat-info"><p>Thiakry (Dégué)</p><span class="prix">2 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/Tarte au Citron Meringuée.jpg"><div class="plat-info"><p>Tarte au citron meringuée</p><span class="prix">3 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/cépes sucré.jpg"><div class="plat-info"><p>Crèp-sucré</p><span class="prix">3 000 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/Gâteau fondant au chocolat.jpeg"><div class="plat-info"><p>Fondant au chocola</p><span class="prix">4 000 CFA</span><br><button class="button-commander">Commander</button></div></div>
+</div>
+
+<h3>Boissons </h3>
+<div class="menu-categorie">
+  <div class="plat"><img src="../recettes/jus bissap.jpeg"><div class="plat-info"><p>Jus de Bissap</p><span class="prix">1 500 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/jus de gingembre.jpg"><div class="plat-info"><p>Jus de Gingembre</p><span class="prix">1 800 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/thé à la menthe.jpeg"><div class="plat-info"><p>Thé à menthe</p><span class="prix">1 200 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+  <div class="plat"><img src="../recettes/eau minéral.jpeg"><div class="plat-info"><p>Eau-minéral</p><span class="prix">1 000 CFA</span><br><button class="button-commander" >Commander</button></div></div>
+</div>
+
+
+  </section>
+
+
+  <div class="plat-details">
+    <p><strong>Plat :</strong> <span id="nomPlat"></span></p>
+    <p><strong>Prix unitaire :</strong> <span id="prixPlat"></span></p>
+  </div>
+  
+  <form id="formCommande">
+    <div class="form-group">
+      <label for="nom">Nom *</label>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="prenom">Prénom *</label>
+      <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="telephone">Numéro de téléphone *</label>
+      <input type="tel" id="telephone" name="telephone" placeholder="+221 XX XXX XX XX" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="votre.email@exemple.com">
+    </div>
+    
+    <div class="form-group">
+      <label for="adresse">Adresse de livraison *</label>
+      <textarea id="adresse" name="adresse" placeholder="Entrez votre adresse complète de livraison" required></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="quantite">Quantité *</label>
+      <input type="number" id="quantite" name="quantite" min="1" value="1" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="commentaire">Instructions spéciales (optionnel)</label>
+      <textarea id="commentaire" name="commentaire" placeholder="Allergies, préférences de cuisson, heure de livraison souhaitée..."></textarea>
+    </div>
+    
+  </form>
+</div>
+
+
+  </div>
+    <footer>
+      <div>
+        <h3>Saveur du senegal</h3>
+        <p>Découvrez les vraies saveurs du Sénégal dans un cadre chaleureux et moderne.</p>
+      </div>
+      <div class="liens-rapides">
+        <h3 class="liens-rapides">Liens rapides</h3>
+        <p><a href="../index.html">Accueil</a></p>
+        <p><a href="produits.html">produits</a></p>
+        <p><a href="propos.html">À propos</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contactez-nous</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Thiés, Sénégal</p>
+      <p><i class="fa-solid fa-phone"></i> +221 77 932 39 65</p>
+      <p>contact@saveurdusenegal.com</p>
+      </div>
+</body>
+</html>

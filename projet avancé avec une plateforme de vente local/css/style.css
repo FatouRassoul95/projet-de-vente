@@ -1,0 +1,266 @@
+
+        body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10px;
+      background: #ebc51c;
+      color:black;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border: solid white 5px;
+    }
+    header img {
+      width: 100px;
+      /* border-radius: 10%; */
+        height: 100px;
+    }
+    h1 {
+      text-align: center;
+      /* margin-top: 20px; */
+        font-size: 6rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+    .logo-title {
+      font-size: 35px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      color:white;
+      margin-top: auto;
+    }
+    div ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    div ul li a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: white;
+      border-radius: 10px;
+      padding: 8px 15px;
+    }
+    div ul li a:hover {
+      background: brown;
+      color: white;
+      transition: 0.3s;
+    }
+    .button{
+      background: rgb(235, 235, 160);
+      color: black;
+      padding: 8px 15px;
+      border-radius: 15px;
+      /* margin-left: 20px; */
+       text-decoration: none;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .button:hover{
+      background: brown;
+      color: white;
+      transition: 0.3s;
+    }
+    
+    .accueil {
+        height: 100vh;
+        background: url('../recettes/péndabaye.jpg') no-repeat center center/cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        position: relative;
+        }
+    .accueil h1 {
+        font-size: 7rem;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        font-family: 'Times New Roman', Times, serif;
+        }
+    .p1{
+        font-size: 25px;
+        /* font-style: italic; */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .bg-style{
+        /* background: brown; */
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        width: 300px;
+        margin: 15px;
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accueil p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+    .specialite {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        }
+    .plats {
+        background: #fff8e1;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        }
+    .plats img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+    .plats h3 {
+        margin: 15px 0;
+        }
+    .plats p {
+        padding: 0 15px 15px;
+        color: #555;
+        }
+    section{
+      margin: 50px 0;
+        text-align: center;
+    }
+    .para-style{
+        font-size: 20px;
+        color: #333;
+        max-width: 600px;
+        line-height: 1.6;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .specialite{
+      flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .temoignages {
+      background: #fff8e1;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .temoignages h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .avis {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    blockquote {
+      background: #fafafa;
+      padding: 15px;
+      border-left: 5px solid #9d5700;
+      font-style: italic;
+      border-radius: 5px;
+    }
+    blockquote cite {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+    .btn-savoir{
+      background: #7a4900;
+      color: white;
+      padding: 15px 15px;
+      border-radius: 15px;
+      
+       text-decoration: none;
+      align-items: center;
+      justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .btn-savoir:hover{
+      background:brown;
+      color: white;
+      transition: 0.3s;
+
+    }
+
+    footer {
+      background: #7a4900;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 50px;
+      flex-wrap: wrap;
+    }
+    footer {
+      background: #7a4900;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 40px;
+      flex-wrap: wrap;
+      gap: 20px;}
+      
+    footer div {
+      margin: 20px;
+      flex: 1;
+      min-width: 200px;
+    }
+    footer h3 {
+      margin-bottom: 15px;
+    }
+    footer a {
+      color: #7a4900;
+      text-decoration: none;
+      border-radius: 10px;
+        padding: 2px 90px 2px 90px;
+        background: white;
+        transition: 0.3s;
+        font-weight: bold;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        margin: 5px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+        .copyright {
+      text-align: center;
+        margin-inline-end: 50px;
+        font-size: 14px;
+        color: #ccc;
+        float: center;
+    }
+   @media screen and (min-width: 768px) {
+
+  body {
+
+    font-size: 18px;
+
+  }
+
+}
+
+
+  

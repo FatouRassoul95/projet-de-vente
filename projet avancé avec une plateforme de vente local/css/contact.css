@@ -1,0 +1,65 @@
+.btn-reserver{
+      background: rgb(235, 235, 160);
+      color: black;
+      padding: 8px 15px;
+      border-radius: 15px;
+      /* margin-left: 20px; */
+       text-decoration: none;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .btn-reserver:hover{
+      background: brown;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 50px;
+      background: #fff8e1;
+    }
+    .formulaire, .infos-contact {
+      width: 45%;
+      min-width: 300px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #9d5700;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: brown;
+    }
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        background: #006400;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+      }
+      nav.active {
+        display: flex;
+      }
+      .burger {
+        display: flex;
+      }
+    }
+
